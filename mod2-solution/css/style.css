@@ -88,6 +88,7 @@ h1{
         width: 33%;
         float: left;
     }
+	
    
 } 
 
@@ -96,7 +97,11 @@ h1{
         width: 50%;
         float:left;
     }
-    
+.col-md-2:nth-child(3n)  {
+		
+		clear: both;
+		width: 100%;
+	}
 }
 
 @media (max-width: 767px){
