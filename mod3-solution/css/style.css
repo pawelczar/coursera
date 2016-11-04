@@ -1,0 +1,48 @@
+
+nav#nav-header{
+	background-color: #aaa;
+	border-radius: 0;
+	color: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #000;
+
+}
+div#menu-collapse li{
+	background-color: #fff;
+	padding-top: 0;
+}
+
+.navbar-default .navbar-brand {
+	color: #000;
+}
+#menu-collapse li a {
+	color: #000;
+	border: 1px  solid #aaa;
+	border-left: 2px solid #aaa;
+	border-right: 2px solid #aaa;
+}
+
+#menu-collapse li a:hover{
+	background-color: #aaa;
+	color: #fff;
+}
+h1{
+	margin: 35px auto;
+}
+div.container {
+	background-color: #aaa;
+}
+h3 {
+	margin: 20px auto;
+}
+
+p{
+	text-align: justify;
+}
+
+@media (max-width: 767px){
+	div.container{
+		margin: auto 50px;
+	}
+}
